@@ -1,0 +1,221 @@
+body {
+    background-color: #000;
+}
+
+/* -----------------Navigation Bar------------------  */
+
+.dark-bg {
+    background-color: #000 !important;
+}
+.text-color {
+    color: #E5E5E5 !important;
+}
+.center {
+    text-align: center;
+}
+.head-content {
+    margin: auto;
+}
+.logo {
+    font-family: 'Cutive Mono', monospace;
+}
+.nv-link {
+    padding: 5px 10px;
+    color: #E5E5E5 !important;
+    font-size: 0.9rem;
+}
+.nv-item {
+    margin: 3px 20px;
+}
+.nv-item:hover {
+    border-bottom: 0.6px solid #28DA38;
+}
+.nv-container {
+    padding-right: 15px;
+    padding-left: 30px;
+}
+.nv-container > a{
+    font-size: 1.4rem;
+}
+
+/* -------------------Main Header-------------------  */
+
+.fl-item {
+    flex: 50%;
+}
+.fl-item h1 {
+    font-size: 10rem;
+    margin-top: 20px;
+    font-family: 'Cutive Mono', monospace;
+}
+.fl-item p {
+    font-size: 1.2rem;
+    margin-top: -40px;
+    margin-bottom: 50px;
+    
+    font-family: 'Cutive Mono', monospace;
+}
+.fl-item > span {
+    display: block;
+    font-size: 0.8rem;
+}
+.fl-item > img {
+    width: 100%;
+    height: 544px;
+}
+.flex-box {
+    margin-bottom: 0;
+    height: 550px;
+}
+.bottom-border {
+    border-bottom: 3px solid #28DA38;
+}
+
+.button {
+    box-sizing: border-box;
+    border-radius: 0;
+    border: 0;
+    font-weight: bold;
+    background-color: #28DA38;
+    color: #000;
+}
+.button:hover {
+    background-color: #000;
+    border: 1px solid #28DA38;
+    border-radius: 0;
+    color: #E5E5E5;
+}
+
+/* -----------------skills Bar------------------  */
+.me {
+    margin: 10px 20px;
+}
+#skills > h1 {
+    font-family: 'Cutive Mono', monospace;
+}
+.skills-flex-item {
+    flex: 30%;
+}
+.ex-progress-bar {
+    margin: 90px 75px;
+    height: 20px;
+}
+.progressbar-bg {
+    background-color: #28DA38;
+    color: #000;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 5px 0;
+}
+.skill-border {
+    border-right: 3px solid #28DA38;
+}
+.border-four-side {
+    border: 1px solid #28DA38;
+}
+.card:hover {
+    border-radius: 0 !important;
+    box-shadow: 1px 1px 10px #28DA38;
+}
+.card > img {
+    height: 240px;
+}
+#projects > h1 {
+    font-family: 'Cutive Mono', monospace;
+}
+h3 {
+    color: #E5E5E5;
+}
+
+/* -----------------Contact Bar------------------  */
+
+.flex-50 {
+    flex: 50%;
+}
+#contact-box, #hire-me {
+    margin: 30px auto;
+    width: 50%;
+}
+.input-email, textarea {
+    width: 66%;
+}
+#hire-me ul > li {
+    padding: 15px;
+    font-size: 1.2rem;
+    text-align: left;
+}
+.hire-reason {
+    padding: 20px;
+}
+.input-form > button {
+    padding: 1px 8px;
+}
+input, textarea{
+    background-color: #E5E5E5;
+    color: #000;
+    border: none;
+}
+
+/* -----------------------Footer-------------------- */
+.fab {
+    color: #28DA38;
+    font-size: 2rem ;
+}
+footer  span {
+    display: block;
+    font-size: .8rem;
+}
+.media-icon > a{
+    padding: 30px;
+}
+.media-icon > a > i:hover {
+    color: #1f9c2a;
+}
+span > i {
+    color: red;
+}
+span > i:hover {
+    font-size: 2rem;
+}
+
+/* ----------------------------About page ------------------------------ */
+
+.portrait-img > img {
+    width: 50vw;
+}
+.details {
+    color: #000000;
+    text-align: centers;
+    margin: auto;
+}
+.details > h1 {
+    color: #28DA38;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 5rem;
+}
+.card-position {
+    position: relative;
+    left: 60px;
+    border-radius: 0;
+}
+.card-body-color {
+    background-color: #E5E5E5;
+}
+code {
+    font-size: 0.8rem;
+    color: #28DA38;
+    text-decoration: none;
+}
+
+/* ----------------------------Project page ------------------------------ */
+.project-card {
+    border-radius: 0 !important;
+    border: none;
+}
+.projects-card {
+    border-radius: 0 !important;
+}
+.project-title > h1 {
+    color: #000000;
+    text-shadow: 3px 3px 20px grey;
+}
