@@ -8,7 +8,8 @@ app.set("view engine", "ejs");
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
 
-mongoose.connect("mongodb+srv://mainAmitSite127:127AmitSitemain@personalsite.mupaq.mongodb.net/contactDB?retryWrites=true&w=majority", { useNewUrlParser: true }, { useUnifiedTopology: true });
+mongoose.connect("mongodb+srv://mainAmitSite127:127AmitSitemain@personalsite.mupaq.mongodb.net/contactDB?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true });
+
 
 
 const contactSchema = new mongoose.Schema({
